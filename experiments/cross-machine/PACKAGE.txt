@@ -1,0 +1,14 @@
+# Route B — current sanitized package
+
+Current frozen package: `DeltaE_PUBLIC_CROSS_MACHINE_v1.0.zip`
+
+SHA-256:
+`86d403a78cef452294cd73a0caf75a5412440579ee8214f9dfa85f523e2aac5d`
+
+The package has been QA-run in a controlled environment: process return code 0 and 15 actual outputs generated.
+
+It intentionally contains no evaluator oracle and no expected-answer field. It is kept separate from Route A clean-room evidence.
+
+To obtain the current package, contact the maintainer/project before running Route B. Return the unchanged first-run result through the external-results upload request already linked in this directory.
+
+Do not substitute historical I5 laptop/operator packages: some historical packages contain reference/oracle/expected material and are not suitable for the current public participation path.
