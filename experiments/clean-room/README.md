@@ -6,6 +6,16 @@ Independently implement the frozen ΔE behavioral wire contract from a public sp
 ## Before you continue
 To preserve a fully blind clean-room result, do **not** inspect Route B implementation/execution artifacts, historical ΔE implementations, evaluator material, hidden tests, or expected answers before your implementation is frozen. If you have already seen any ΔE implementation, disclose that exposure; the result can still be useful, but it must not be classified as fully blind clean-room evidence.
 
+## Public source-only participation package
+Download: [DeltaE_PUBLIC_CLEANROOM_SOURCE_ONLY_v1.0.zip](https://www.dropbox.com/scl/fi/dgv7zfnh2b47b86d22hji/DeltaE_PUBLIC_CLEANROOM_SOURCE_ONLY_v1.0.zip?rlkey=hujhjwrmywu6k8208poti2nnl&dl=0)
+
+SHA-256:
+`8a9a5c09664413067ae4126ce1f47b24944fcd13b08bb8ec89ebbda7811787d7`
+
+This package contains the public specification, step-by-step instructions, AI-use guidance, an empty implementation location, and the source-only freeze/return procedure. It intentionally excludes the originating implementation, evaluator oracle, hidden challenge/tests, expected hidden answers, and internal corpus.
+
+**Do not run or inspect Route B before freezing Route A if you want to preserve fully blind clean-room status.**
+
 ## Public behavioral specification
 For each non-empty input line, read exactly one JSON object.
 
@@ -51,7 +61,7 @@ When implementation is complete, preserve the exact source and record:
 Do not change the implementation after freeze.
 
 ## Return / next stage
-Contact the maintainer through the repository after freeze. The evaluator stage is intentionally not published here because exposing it before freeze would contaminate the blind exercise.
+Submit the frozen source and attestation through the result-submission link below. The evaluator stage is intentionally not published here because exposing it before freeze would contaminate the blind exercise.
 
 ## Claim boundary
 Passing this exercise would support independent implementation/reproduction within the tested contract. It would not prove scientific novelty, universality, formal correctness, or productivity benefit.
