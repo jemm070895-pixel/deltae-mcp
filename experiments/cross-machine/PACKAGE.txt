@@ -2,6 +2,9 @@
 
 Current frozen package: `DeltaE_PUBLIC_CROSS_MACHINE_v1.0.zip`
 
+Public download:
+https://www.dropbox.com/scl/fi/4k94ut2a3jiwvwq9pru9x/DeltaE_PUBLIC_CROSS_MACHINE_v1.0.zip?rlkey=pwul3095w5xeuqmy86e5q8zuq&dl=0
+
 SHA-256:
 `86d403a78cef452294cd73a0caf75a5412440579ee8214f9dfa85f523e2aac5d`
 
@@ -9,6 +12,8 @@ The package has been QA-run in a controlled environment: process return code 0 a
 
 It intentionally contains no evaluator oracle and no expected-answer field. It is kept separate from Route A clean-room evidence.
 
-To obtain the current package, contact the maintainer/project before running Route B. Return the unchanged first-run result through the external-results upload request already linked in this directory.
+**Exposure boundary:** Route B exposes an implementation. Anyone intending to preserve fully blind Route A eligibility should complete and freeze Route A before downloading or inspecting Route B. Prior exposure must be disclosed.
+
+Return the unchanged first-run result through the external-results upload request already linked in this directory.
 
 Do not substitute historical I5 laptop/operator packages: some historical packages contain reference/oracle/expected material and are not suitable for the current public participation path.
