@@ -23,3 +23,6 @@ Until that sanitized package is published, volunteers should contact the maintai
 
 ## Claim boundary
 A successful cross-machine run is evidence about execution/portability in that environment. By itself it is not third-party clean-room reproduction and does not validate scientific novelty or universality.
+
+## Direct result submission
+Return the unchanged first-run result through the [ΔE external-results upload request](https://www.dropbox.com/request/3gu81cps1oqq7q2mwz8l). Prefix filenames with `B_CROSSMACHINE_` when practical.
