@@ -2,6 +2,9 @@
 
 ΔE currently welcomes independent participation through three deliberately separate experimental routes.
 
+## Important for clean-room participants
+If you intend to participate in **A — Clean-room implementation**, go directly to the clean-room instructions below and **do not inspect Route B implementation/execution artifacts or historical ΔE implementation material before freezing your implementation**. Any prior exposure to a ΔE implementation must be disclosed. Exposure does not invalidate other participation, but it means the result must not be described as fully blind clean-room evidence.
+
 ## A — Clean-room implementation
 Implement the frozen public behavioral specification without seeing the originating implementation, evaluator oracle, hidden challenge, hidden tests, or expected hidden-test answers before freeze.
 
@@ -12,7 +15,7 @@ Start here: [clean-room/README.md](clean-room/README.md)
 ## B — Cross-machine execution
 Run a frozen execution package on another real computer/runtime and return the first result unchanged.
 
-This route tests execution/portability behavior in another environment. It is **not** equivalent to an independent clean-room implementation.
+This route tests execution/portability behavior in another environment. It is **not** equivalent to an independent clean-room implementation. Route B may expose an implementation, so complete Route A first if you want to preserve clean-room blindness.
 
 Start here: [cross-machine/README.md](cross-machine/README.md)
 
