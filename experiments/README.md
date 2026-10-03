@@ -1,38 +1,48 @@
-# External experiments
+# External experiments — choose your route before inspecting materials
 
-ΔE currently welcomes independent participation through three deliberately separate experimental routes.
+ΔE welcomes independent participation through three deliberately separate experimental routes.
 
-## Important for clean-room participants
-If you intend to participate in **A — Clean-room implementation**, go directly to the clean-room instructions below and **do not inspect Route B implementation/execution artifacts or historical ΔE implementation material before freezing your implementation**. Any prior exposure to a ΔE implementation must be disclosed. Exposure does not invalidate other participation, but it means the result must not be described as fully blind clean-room evidence.
+> **Choose your route before opening its materials.**
+>
+> If you may want to perform **A — Clean-room implementation**, do **A first**. Route B exposes a ΔE implementation and can therefore prevent a later result from being classified as fully blind clean-room evidence. Prior exposure should be disclosed, not hidden.
 
-## A — Clean-room implementation
-Implement the frozen public behavioral specification without seeing the originating implementation, evaluator oracle, hidden challenge, hidden tests, or expected hidden-test answers before freeze.
+## A — Clean-room implementation — public / self-service
+Independently implement the frozen public behavioral specification without seeing the originating implementation, evaluator oracle, hidden challenge/tests, or expected hidden answers before freeze.
 
-This route is intended to test independent implementability/reproduction of the supplied behavioral contract. It does not establish novelty, universality, or semantic correctness.
+**Choose A if:** you want to provide independent implementation/reproduction evidence under the strongest available blindness boundary.
 
-Start here: [clean-room/README.md](clean-room/README.md)
+Public source-only package and instructions: [A — Clean-room](clean-room/README.md)
 
-## B — Cross-machine execution
-Run a frozen execution package on another real computer/runtime and return the first result unchanged.
+**Do not inspect Route B before freezing A.**
 
-This route tests execution/portability behavior in another environment. It is **not** equivalent to an independent clean-room implementation. Route B may expose an implementation, so complete Route A first if you want to preserve clean-room blindness.
+## B — Cross-machine execution — public / self-service
+Run a frozen sanitized ΔE execution package on another authorized real computer/runtime and preserve the first result unchanged.
 
-Start here: [cross-machine/README.md](cross-machine/README.md)
+**Choose B if:** you want to test portability/execution in another environment and do not need to preserve fully blind Route A status.
 
-## C — Comparative study
-Participate in a randomized crossover study comparing a structured ΔE contract/toolchain with conventional written requirements.
+Public execution package and instructions: [B — Cross-machine](cross-machine/README.md)
 
-Target outcomes include implementation time, hidden-case correctness, clarification burden, maintenance time, and maintenance regressions. The target cohort is at least 8 participants, preferably 12 or more.
+Route B exposes an implementation. It is execution/portability evidence, not independent clean-room implementation evidence.
 
-Start here: [comparative-study/README.md](comparative-study/README.md)
+## C — Comparative empirical study — public enrollment / pre-assignment
+Join a randomized crossover comparison of a structured ΔE contract/toolchain and conventional written requirements.
+
+**Choose C if:** you want to participate in the empirical comparison. The public ZIP is enrollment/pre-assignment only; experimental conditions are released after assignment to preserve the study design.
+
+Public enrollment package and instructions: [C — Comparative study](comparative-study/README.md)
+
+Target measures include implementation time, hidden-case correctness, clarification burden, maintenance time, and maintenance regressions. Intended cohort: at least 8 independent implementers, preferably 12 or more.
+
+## Can I participate in more than one route?
+Potentially, but **order and disclosure matter**. If fully blind A evidence is desired, complete and freeze A before inspecting B. Route C asks about prior exposure so it can be handled during assignment and analysis.
 
 ## Experimental separation
-Results from these routes are recorded separately. A successful run in one route is not silently promoted into evidence for another route.
+Results from A, B, and C are recorded separately. A result in one route is not silently promoted into evidence for another route. Positive, neutral, negative, and failed results can all be informative when preserved and reported accurately.
 
 ## Protected evaluator boundary
 This repository does not publish hidden evaluation cases, expected hidden-test outputs, evaluator oracle/reference material, or private volunteer returns that could compromise a blind evaluation.
 
 ## Submit external results
-Use the dedicated [ΔE external-results upload request](https://www.dropbox.com/request/3gu81cps1oqq7q2mwz8l). Contributors can upload files without being given access to the project Dropbox or other volunteers' submissions.
+Use the dedicated [ΔE external-results upload request](https://www.dropbox.com/request/3gu81cps1oqq7q2mwz8l). Contributors can upload files without access to the project Dropbox or other volunteers' submissions.
 
-When practical, prefix filenames with `A_CLEANROOM_`, `B_CROSSMACHINE_`, or `C_COMPARATIVE_`. Preserve first-run evidence unchanged. Do not submit passwords, credentials, or unrelated personal data. All incoming files are treated as untrusted until inspected. Submission does not by itself count as successful validation.
+When practical, prefix filenames with `A_CLEANROOM_`, `B_CROSSMACHINE_`, or `C_COMPARATIVE_`. Preserve first-run evidence unchanged. Do not submit passwords, credentials, employer secrets, or unrelated personal data. Incoming files are treated as untrusted until inspected. Submission does not by itself count as successful validation.
