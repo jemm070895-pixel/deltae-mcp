@@ -24,3 +24,6 @@ Evidence is recorded separately.
 
 ## Current stage
 Recruitment/preparation. Full participant materials will be released only in a form that preserves the study design and does not leak hidden evaluator material.
+
+## Direct result submission
+When assigned study materials/results are ready for return, use the [ΔE external-results upload request](https://www.dropbox.com/request/3gu81cps1oqq7q2mwz8l). Prefix filenames with `C_COMPARATIVE_` when practical and preserve first-run evidence unchanged.
