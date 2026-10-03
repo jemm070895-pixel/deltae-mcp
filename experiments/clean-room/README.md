@@ -3,6 +3,9 @@
 ## Purpose
 Independently implement the frozen ΔE behavioral wire contract from a public specification only.
 
+## Before you continue
+To preserve a fully blind clean-room result, do **not** inspect Route B implementation/execution artifacts, historical ΔE implementations, evaluator material, hidden tests, or expected answers before your implementation is frozen. If you have already seen any ΔE implementation, disclose that exposure; the result can still be useful, but it must not be classified as fully blind clean-room evidence.
+
 ## Public behavioral specification
 For each non-empty input line, read exactly one JSON object.
 
@@ -29,6 +32,7 @@ Write exactly one JSON result per processed input line.
 ## Blindness rule
 Before freezing your implementation, do not inspect or request:
 - originating/reference ΔE implementation;
+- Route B implementation/execution artifacts;
 - evaluator oracle;
 - hidden challenge/tests;
 - expected hidden-test answers.
