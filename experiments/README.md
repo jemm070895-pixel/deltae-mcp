@@ -28,3 +28,8 @@ Results from these routes are recorded separately. A successful run in one route
 
 ## Protected evaluator boundary
 This repository does not publish hidden evaluation cases, expected hidden-test outputs, evaluator oracle/reference material, or private volunteer returns that could compromise a blind evaluation.
+
+## Submit external results
+Use the dedicated [ΔE external-results upload request](https://www.dropbox.com/request/3gu81cps1oqq7q2mwz8l). Contributors can upload files without being given access to the project Dropbox or other volunteers' submissions.
+
+When practical, prefix filenames with `A_CLEANROOM_`, `B_CROSSMACHINE_`, or `C_COMPARATIVE_`. Preserve first-run evidence unchanged. Do not submit passwords, credentials, or unrelated personal data. All incoming files are treated as untrusted until inspected. Submission does not by itself count as successful validation.
