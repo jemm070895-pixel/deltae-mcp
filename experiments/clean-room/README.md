@@ -51,3 +51,6 @@ Contact the maintainer through the repository after freeze. The evaluator stage 
 
 ## Claim boundary
 Passing this exercise would support independent implementation/reproduction within the tested contract. It would not prove scientific novelty, universality, formal correctness, or productivity benefit.
+
+## Direct result submission
+After freezing the exact implementation, submit the frozen source plus freeze/attestation information through the [ΔE external-results upload request](https://www.dropbox.com/request/3gu81cps1oqq7q2mwz8l). Prefix filenames with `A_CLEANROOM_` when practical. The evaluator stage remains private until the freeze is recorded.
