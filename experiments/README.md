@@ -33,6 +33,19 @@ Public enrollment package and instructions: [C — Comparative study](comparativ
 
 Target measures include implementation time, hidden-case correctness, clarification burden, maintenance time, and maintenance regressions. Intended cohort: at least 8 independent implementers, preferably 12 or more.
 
+## Participant benefit — ΔE Early Contributor
+As a thank-you for contributing to the external evaluation of ΔE, participants who complete and submit a **qualifying experimental route** are eligible for **complimentary early access to a future usable ΔE release, if and when such a release becomes available**.
+
+The intention is to let qualifying contributors explore and use that early release in their own projects without charge during the early-access period.
+
+This benefit:
+- depends on completing and submitting the route with the requested evidence, **not** on obtaining a favorable result;
+- applies equally to qualifying positive, neutral, negative, and failed results;
+- is not a promise that a commercial product, specific feature set, release date, perpetual license, or particular business model will exist;
+- does not change the scientific classification of a submission.
+
+Eligibility is recorded separately from experimental outcomes so that the benefit does not reward any particular result.
+
 ## Can I participate in more than one route?
 Potentially, but **order and disclosure matter**. If fully blind A evidence is desired, complete and freeze A before inspecting B. Route C asks about prior exposure so it can be handled during assignment and analysis.
 
