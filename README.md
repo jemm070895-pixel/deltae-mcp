@@ -24,11 +24,21 @@ In a tested clean-room domain, an independently written implementation matched t
 
 These results establish reproducibility **within the tested domain**. They do **not** establish novelty, superiority, general semantic correctness, or productivity benefit.
 
+## External participation
+
+There are now three deliberately separate ways to participate:
+
+- **A — Clean-room implementation:** independently implement the public behavioral specification before seeing evaluator secrets.
+- **B — Cross-machine execution:** run a frozen sanitized package on another real computer/runtime and preserve the first result.
+- **C — Comparative study:** join a randomized crossover comparison of ΔE versus conventional written requirements.
+
+See **[External experiments](experiments/README.md)** for the exact purpose, safeguards, and claim boundary of each route.
+
 ## Current independent-validation stage
 
-The project is now seeking genuinely independent reproduction.
+The project is seeking genuinely independent reproduction.
 
-A volunteer receives a frozen public behavioral specification and independently creates a Python implementation without access to the original implementation, evaluator oracle, hidden tests, or expected hidden-test answers. AI assistance is permitted if disclosed.
+A clean-room volunteer receives a frozen public behavioral specification and independently creates a Python implementation without access to the original implementation, evaluator oracle, hidden tests, or expected hidden-test answers. AI assistance is permitted if disclosed.
 
 Evaluator material remains separate so that an independent result can later be tested without leaking expected answers in advance.
 
@@ -42,14 +52,6 @@ This is a hypothesis to be tested, **not a claim that ΔE is better**.
 
 The study requires a cohort of independent implementers: **at least 8 participants, preferably 12 or more**. Positive, neutral, and negative results are all informative.
 
-This comparative study is separate from the individual clean-room reproduction exercise.
-
-## Participation
-
-Independent developers, research software engineers, researchers, and students interested in software reproducibility or independent implementation are welcome to ask about either validation exercise.
-
-Participation is voluntary and unpaid. Participation does not imply endorsement of ΔE or its claims.
-
 ## Public/private boundary
 
 This public repository intentionally excludes:
@@ -60,11 +62,11 @@ This public repository intentionally excludes:
 - private volunteer returns before evaluation;
 - secret material that could compromise an independent reproduction.
 
+Historical packages that contain reference/oracle/expected material are also kept out of the public participation paths when their publication could contaminate a later blind exercise.
+
 ## Project status
 
 **Experimental validation in progress.**
-
-This repository is currently a public-facing project overview. Additional public materials will be added only after checking that they do not compromise ongoing independent evaluation.
 
 ## Maintainer
 
