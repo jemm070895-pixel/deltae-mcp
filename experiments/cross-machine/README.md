@@ -3,11 +3,19 @@
 ## Purpose
 Test a frozen ΔE execution artifact on a real external computer/runtime and preserve the first result unchanged.
 
-This is the route analogous to the early external laptop test. It is intentionally distinguished from the clean-room implementation experiment.
+This route exposes an implementation. **If you may want to participate in Route A as a fully blind clean-room participant, complete and freeze Route A before downloading or inspecting this Route B package.** Any prior implementation exposure must be disclosed.
+
+## Current sanitized package
+Download: [DeltaE_PUBLIC_CROSS_MACHINE_v1.0.zip](https://www.dropbox.com/scl/fi/4k94ut2a3jiwvwq9pru9x/DeltaE_PUBLIC_CROSS_MACHINE_v1.0.zip?rlkey=pwul3095w5xeuqmy86e5q8zuq&dl=0)
+
+SHA-256:
+`86d403a78cef452294cd73a0caf75a5412440579ee8214f9dfa85f523e2aac5d`
+
+The package intentionally contains no evaluator oracle and no expected-answer field.
 
 ## What a participant does
-1. Receive the current sanitized cross-machine package.
-2. Extract it into a new empty folder on a computer they are authorized to use.
+1. Download the current sanitized package above.
+2. Extract it into a new empty folder on a computer you are authorized to use.
 3. Do not edit package files before the first run.
 4. Follow the included OS/runtime instructions.
 5. Preserve the first generated result unchanged.
@@ -16,10 +24,8 @@ This is the route analogous to the early external laptop test. It is intentional
 
 Do not bypass employer, school, endpoint-security, or administrator restrictions on a managed computer.
 
-## Why the executable package is not committed here yet
-Historical execution packages include material that is safe for their original purpose but could contaminate someone who later chooses the blind clean-room route. A sanitized public package is being prepared and must not contain evaluator secrets or expected hidden answers.
-
-Until that sanitized package is published, volunteers should contact the maintainer before running this route.
+## Historical-package boundary
+Do not substitute historical I5 laptop/operator packages. Some historical packages contain reference/oracle/expected material and are not suitable for the current public participation path.
 
 ## Claim boundary
 A successful cross-machine run is evidence about execution/portability in that environment. By itself it is not third-party clean-room reproduction and does not validate scientific novelty or universality.
